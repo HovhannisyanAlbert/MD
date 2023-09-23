@@ -1,0 +1,51 @@
+/* index.module.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.serviceBlock {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.service {
+  width: 48%;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.service h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.peofBlock {
+  margin-top: 10px;
+}
+
+.peofBlock h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.peofBlock span {
+  display: block;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Style for the Admin link */
+a {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
